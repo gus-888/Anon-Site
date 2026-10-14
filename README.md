@@ -75,21 +75,12 @@ pip install -r requirements.txt
 ```powershell
 # 1. Entre na pasta do projeto
 cd anonsite-python
-
-# 2. Crie e ative o ambiente virtual
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
 ```
 
-> Se o PowerShell bloquear a ativação, rode (uma vez, como usuário):
-> `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`
-> e tente de novo. Alternativa sem mudar a política: use o `cmd`:
-> `.\.venv\Scripts\activate.bat`.
->
 > Se `py` não existir, use `python` no lugar em todos os comandos.
 
 ```powershell
-# 3. Instale os requirements
+# 2. Instale os requirements
 pip install -r requirements.txt
 ```
 
@@ -276,7 +267,6 @@ automaticamente, se existirem.
 |---|---|
 | `ModuleNotFoundError: PyQt6` | Ative o venv e rode `pip install -r requirements.txt` de novo. |
 | `libEGL.so.1` / `libXtst` não encontrado (Linux) | Instale as libs de sistema da seção de instalação. |
-| PowerShell bloqueia `Activate.ps1` (Windows) | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, ou use o `cmd` com `activate.bat`. |
 | `py` não é reconhecido (Windows) | Use `python` no lugar de `py`. |
 | Páginas dando OFFLINE | Suspeite do proxy (IP/porta) ou do DoH; desative e reinicie. |
 | MCP/API não responde | O `run.py` precisa estar rodando (com ou sem UI). Com `--no-mcp`, a API/MCP ficam desligados. |
