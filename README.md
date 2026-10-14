@@ -6,16 +6,7 @@ Inclui o navegador com 50 ferramentas para controlar o navegador via IA, que pod
 
 ## Recursos
 
-- **Abas**: criar, fechar, reordenar arrastando, fechar com clique do meio,
-  menu de contexto (silenciar, duplicar, fixar 📌, fechar outras/direita/
-  esquerda, **tela dividida**).
-- **Barra de endereços** com busca (DuckDuckGo padrão ou Google).
-- **Privacidade**: perfil efêmero apagado a cada inicialização, 5 perfis de
-  fingerprint rotacionados, JS anti-tracking, WebRTC bloqueado, negação
-  automática de permissões, spoof de cabeçalhos, **DoH** (Cloudflare/Quad9/
-  AdGuard/Google), **proxy** (`socks5://…`), **aba Fantasma** (isolamento
-  por aba), otimizador de memória 0–2.
-- **Central (⚙)**: destruir cookies/cache/storage, mudar identidade,
+- **Config (⚙)**: destruir cookies/cache/storage, mudar identidade,
   embaralhar canvas, limpar fingerprint (`x-finger`), DoH, proxy, buscador,
   aba Fantasma, exportar/importar sessão.
 - **Sessão**: exporta/importa `AnonSession.json` (cookies + storages).
