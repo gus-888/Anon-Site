@@ -1,18 +1,6 @@
 # AnonSite — Python
 
-Navegador anônimo **100% Python**, para **Linux e Windows**, a partir do
-mesmo código. Port do AnonSite original (C++ Win32 + WebView2 + Node.js,
-só Windows) para **PyQt6 + QtWebEngine** (Chromium).
-
-Inclui o navegador com abas, proteções anti-fingerprint, DoH, proxy, aba
-Fantasma, exportação/importação de sessão — e um **servidor MCP** com 50
-ferramentas para controlar o navegador via IA, que pode rodar **com ou sem
-a interface gráfica**.
-
-Documentação completa:
-
-- `COMO-USAR.md` — guia prático de uso (navegar, Central, sessão, MCP, API).
-- `EXPLICACAO.md` — como o projeto funciona por dentro, arquivo por arquivo.
+Inclui o navegador com 50 ferramentas para controlar o navegador via IA, que pode rodar **com ou sem a interface gráfica**.
 
 ---
 
@@ -311,14 +299,4 @@ As ferramentas MCP de segurança (nmap, Nuclei, fuzzing, etc.) servem
 para auditar **sistemas que você tem autorização para testar**. Os
 comandos externos rodam via `subprocess` **sem shell**.
 
-O AnonSite dificulta a identificação, mas não é invisibilidade absoluta:
-evite entrar com contas que identificam você se o objetivo é anonimato
-total.
-
 ---
-
-## Licença
-
-Este repositório não inclui um arquivo de licença. O projeto original
-(AnonSite em C++/Node.js) também não trazia licença explícita no pacote
-analisado.
