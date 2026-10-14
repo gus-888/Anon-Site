@@ -1,6 +1,7 @@
 # AnonSite — Python
 
 Inclui o navegador com 50 ferramentas para controlar o navegador via IA, que pode rodar **com ou sem a interface gráfica**.
+Livre para qualquer uso de cibersegurança e fork.
 
 ---
 
